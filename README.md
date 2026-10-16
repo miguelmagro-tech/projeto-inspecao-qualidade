@@ -293,33 +293,4 @@ Os arquivos são produzidos ao executar o notebook; não estão incorporados a e
 | 5. Arquitetura CNN e treinamento | Conv2D, MaxPooling2D, Flatten, Dense e Adam | Seções 6 e 7 |
 | 6. Auditoria e gravação | Gráficos, análise, documentação e apresentação | Seções 8 a 10 e 13 |
 
-## 12. Versionamento e documentação
 
-O curso exige uso de Git com branches e commits lógicos. O notebook revisado e este README devem integrar o repositório informado no início do documento. A existência de um histórico de commits e de uma publicação no GitHub não foi verificada nesta revisão; essa etapa deve ser conferida antes da entrega.
-
-Para organizar o versionamento, mantenha o notebook e a documentação sob controle do Git, trabalhe em uma branch de desenvolvimento e registre as alterações reais com mensagens que expliquem sua finalidade. Exemplos para futuras mudanças são `fix: corrigir carregamento das imagens` e `docs: atualizar instrucoes de execucao`.
-
-Revise as alterações antes de integrar a branch principal. Evite incluir o ambiente `.venv/`, arquivos temporários, o ZIP do dataset e as imagens de treinamento no repositório.
-
-## 13. Vídeo de apresentação e entrega
-
-**Link do vídeo:** PREENCHER COM O LINK DO GOOGLE DRIVE.
-
-O vídeo deve ter **até 5 minutos** e apresentar:
-
-1. O objetivo do sistema e as classes utilizadas.
-2. Uma demonstração do funcionamento no notebook.
-3. O que Grayscale, Blur, limiarização, Canny e morfologia revelaram nas amostras.
-4. A estrutura da CNN e as transformações do Data Augmentation, incluindo brilho.
-5. Os gráficos de Loss e Acurácia, a interpretação de overfitting e os principais erros de classificação.
-
-### Conferência antes da submissão
-
-- Preencher o nome do estudante e o link do vídeo.
-- Conferir o histórico de branches e commits exigido pelo curso.
-- Salvar o notebook com suas saídas e conferir se este README corresponde à execução apresentada.
-- Enviar o README e o vídeo ao Google Drive, com acesso de **leitor para qualquer pessoa com o link**.
-- Abrir os links sem estar autenticado para conferir o acesso.
-- Submeter os links na tarefa **Módulo 2 - Mini-Projeto Avaliativo**, no AVA, conforme o prazo informado pela instituição.
-
-As orientações do curso permitem consultar IA generativa, desde que o estudante compreenda o código final e consiga explicar e defender suas decisões no vídeo.
